@@ -1,0 +1,27 @@
+$ttl 38400
+
+
+
+homelan.local. IN SOA admin.homelan.local. root.homelan.local. (
+
+2008041601 ; Serial
+
+10800 ; Refresh
+
+3600 ; Retry
+
+604800 ; Expire
+
+38400 ; Negative cache ttl
+
+)
+
+@ IN NS ns.homelan.local.
+
+
+
+@ IN A 192.168.1.1
+
+ns IN A 192.168.1.1
+
+srv1 IN A 192.168.1.2
